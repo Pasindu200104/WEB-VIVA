@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "atom";
+    src: url("font/Atomed-x31W8.otf");
+}
+
+.A {
+    font-family: "atom";
+}
+
+.bg {
+    background-image: url("resources/5453471.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgH {
+    background-image: url("resources/9129514.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgcol1 {
+    background-color: #b624b6c4;
+}
+.bgcol2 {
+    background-color: #b96bb9;
+}
+
+.mybtn {
+    background-color: #b624b6c4;
+    color: white;
+    font-weight: bold;
+}
+
+.mybtn:hover {
+    background-color: #b555b5c4;
+    color: white;
+    font-weight: bold;
+}
+
+.tec1 {
+    color: #b624b6c4;
+}
+
+.btnbg1 {
+    background-color: #b624b6c4;
+}
+
+.btnbg1:hover {
+    background-color: rgb(123, 34, 174);
+
+}
+
+.btnbg2 {
+    background-color: rgb(43, 226, 141);
+}
+
+.btnbg2:hover {
+    background-color: rgb(34, 174, 144);
+
+}
+.imghov{
+    transition-duration: 2s;
+}
+.imghov:hover {
+    scale: 1.5;
+}
+
+.homeImg {
+    animation: anime 5s infinite 1s ease-in-out;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.homeImg2 {
+    animation: anime2 5s infinite 1s ease-in-out;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+
+.homeImg3 {
+    animation: anime3 5s infinite 1s ease-in-out;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.homeImg4 {
+    animation: anime4 5s infinite 1s ease-in-out;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.homeImg5 {
+    animation: anime5 5s infinite 1s ease-in-out;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.homeImg6 {
+    animation: anime6 5s infinite 1s ease-in-out;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.star i {
+    color: gray;
+    cursor: pointer;
+}
+
+.star.selected i {
+    color: rgb(255, 196, 0);
+}
+
+@keyframes anime {
+    0% {
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-top: 30px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes anime2 {
+    0% {
+        margin-top: 100px;
+    }
+
+    50% {
+        margin-top: 130px;
+    }
+
+    100% {
+        margin-top: 100px;
+    }
+}
+
+@keyframes anime3 {
+    0% {
+        margin-top: 200px;
+    }
+
+    50% {
+        margin-top: 230px;
+    }
+
+    100% {
+        margin-top: 200px;
+    }
+}
+
+@keyframes anime4 {
+    0% {
+        margin-top: 0px;
+    }
+
+    50% {
+        margin-top: 30px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes anime5 {
+    0% {
+        margin-top: 200px;
+    }
+
+    50% {
+        margin-top: 230px;
+    }
+
+    100% {
+        margin-top: 200px;
+    }
+}
+
+@keyframes anime6 {
+    0% {
+        margin-top: 100px;
+    }
+
+    50% {
+        margin-top: 130px;
+    }
+
+    100% {
+        margin-top: 100px;
+    }
+}
